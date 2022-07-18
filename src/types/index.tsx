@@ -12,8 +12,9 @@ export interface Todos {
   isDone: boolean;
 }
 
-
 export interface TodosProps {
-    todos:Todos[],
-    setTodos:React.Dispatch<React.SetStateAction<Todos[]>>
+  todos: Todos[];
+  setTodos: React.Dispatch<React.SetStateAction<Todos[]>>;
+  completedTodos: Todos[];
+  setcompletedtodos: React.Dispatch<React.SetStateAction<Todos[]>>;
 }
