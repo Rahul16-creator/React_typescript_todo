@@ -1,1 +1,1 @@
-React Typescrip Todo List App 🚀
+React Typescript Todo List App 🚀
