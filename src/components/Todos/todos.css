@@ -1,0 +1,56 @@
+.todoslistContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.singleTodoContainer {
+  position: relative;
+  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+  width: 45%;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  /* flex-wrap: wrap; */
+  transition: 0.5s;
+}
+
+.singleContainer__text {
+  position: relative;
+  /* flex: 1; */
+  padding: 0.5rem 1rem;
+  font-size: 2.5rem;
+}
+.singleTodoContainer input {
+  width: 80%;
+}
+
+.singleContainer__text:focus {
+  outline: none;
+}
+
+.icons {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.7rem;
+  font-size: 2rem;
+}
+.icons span {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .singleTodoContainer {
+    width: 100%;
+  }
+}
